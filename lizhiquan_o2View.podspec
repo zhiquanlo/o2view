@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "o2View"
+  s.name         = "lizhiquan_o2View"
   s.version      = "0.0.1"
   s.summary      = "这里写你项目的详细介绍和使用方法"
   s.description  = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "李志权" => "373765482@qq.com" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/zhiquanlo/o2view.git", :tag => 'v0.0.1' }
+  s.source       = { :git => "https://github.com/zhiquanlo/o2view.git", :tag => "#{s.version}" }
 
   s.source_files  = 'O2View'
   s.exclude_files = "Classes/Exclude"
